@@ -14,15 +14,41 @@
 <body class="general">
     <header>
         <section class="header">
-            <nav>
-                <h2 class="marca">Mauro <span>Recalde</span></h2>
-                <ul>
-                    <li class="inicio"><a href="../index.html">Inicio</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                    <li><a href="./encontranos.html">¿Donde estamos?</a></li>
-                    <li><a href="./datoshistoricos.html">Historia</a></li>
-                    <li><a href="./servicios.html">Servicios</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Mauro Recalde</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Además
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./encontranos.html">¿Donde estamos?</a></li>
+                                    <li><a class="dropdown-item" href="./datoshistoricos.html">Historia</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </section>
     </header>
@@ -35,7 +61,7 @@
                     <label for="nombre">Decinos tu nombre</label>
                     <input type="text" name="nombre" id="nombre" required>
                 </div>
-                
+
                 <div class="controls paisC">
                     <label for="pais">De que país sos</label>
                     <select name="pais" id="pais">
@@ -51,17 +77,17 @@
                         <option value="bra">Brasil</option>
                     </select>
                 </div>
-                
+
                 <div class="controls telefonoC">
                     <label for="phone">Dejanos un telefono</label>
                     <input type="tel" name="phone" id="phone">
                 </div>
-                
+
                 <div class="controls edadC">
                     <label for="edad">Decinos tu edad</label>
                     <input type="number" name="" id="">
                 </div>
-                
+
                 <div class="controls nacimientoC">
                     <label for="fnac">Cuando naciste</label>
                     <input type="date" name="fnac" id="fnac">
@@ -70,7 +96,7 @@
                     <label for="correo">tu correo</label>
                     <input type="email" name="correo" id="correo">
                 </div>
-                
+
                 <div class="controls comentarioC">
                     <label for="comentario">Dejanos tu comentario</label><br>
                     <textarea name="comentario" id="comentario" cols="50" rows="5"

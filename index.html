@@ -15,15 +15,42 @@
     <!-- Encabazado -->
     <header>
         <section class="header">
-            <nav>
-                <h2 class="marca">Mauro <span>Recalde</span></h2>
-                <ul>
-                    <li class="inicio"><a href="./index.html">Inicio</a></li>
-                    <li><a href="./sections/contacto.html">Contacto</a></li>
-                    <li><a href="./sections/encontranos.html">¿Donde estamos?</a></li>
-                    <li><a href="./sections/datoshistoricos.html">Historia</a></li>
-                    <li><a href="./sections/servicios.html">Servicios</a></li>
-                </ul>
+        <!-- Navbar responsive -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Mauro Recalde</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./sections/contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./sections/servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Además
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./sections/encontranos.html">¿Donde estamos?</a></li>
+                                    <li><a class="dropdown-item" href="./sections/datoshistoricos.html">Historia</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </section>
     </header>
@@ -107,7 +134,7 @@
                     </div>
                     <div class="excelencia">
                         <h3>Excelencia</h3>
-                        <p class="parrafoCarac">No admimitos fallos en nuestra tarea</p>
+                        <p class="parrafoCarac">No admitimos fallos en nuestra tarea</p>
                     </div>
                 </div>
         </div>

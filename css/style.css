@@ -2,7 +2,7 @@
 
 /* Responsive con tres breakpoints */
 /* Responsive con tres breakpoints */
-@media (min-width:500px) {
+@media (min-width:200px) {
     * {
         box-sizing: border-box;
         margin: 0;

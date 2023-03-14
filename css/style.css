@@ -2,13 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 /* Responsive con tres breakpoints */
 /* Responsive con tres breakpoints */
-@media (max-width: 576px) {
+@media (min-width: 500px) {
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "Lato", sans-serif;
-    color: whitesmoke;
   }
   /* Body */
   body {

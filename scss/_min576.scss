@@ -1,0 +1,351 @@
+@media(min-width: 576px){
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		font-family: $font-family_1;
+	}
+/* Index */
+	body {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+	}
+	.general {
+		height: 310vh;
+		width: 100%;
+		background-color: $background-color_1;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-top: 4%;
+		padding-left: 10%;
+		padding-right: 10%;
+		ul {
+			li {
+				list-style-type: none;
+				display: inline-block;
+				padding: 10px 15px;
+				a {
+					color: $color_1;
+					text-decoration: none;
+					font-weight: bold;
+					&:hover {
+						color: $color_4;
+						transition: 0.3s;
+					}
+				}
+			}
+		}
+	}
+	.marca {
+		color: $color_1;
+		font-size: 25px;
+	}
+	.navbar-brand {
+		color: $color_2;
+	}
+	span {
+		color: $color_3;
+	}
+	.riesgoGestion {
+		color: $color_2;
+	}
+	.entreMedio {
+		height: 130px;
+		width: auto;
+		background: rgb(255, 215, 233);
+		background: linear-gradient(90deg, rgb(255, 215, 233) 0%, rgb(156, 202, 255) 100%);
+		padding: 25px;
+		margin: 5px;
+		border-radius: black;
+	}
+
+	.textoMedio {
+		text-align: center;
+		font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+  .text-light.text-center{
+    font-family:monospace;
+    font-style: italic;
+
+  }
+  img.icono{
+    height: 25px;
+    width: 30px;
+  }
+	.spanmedium {
+		color: $color_5;
+	}
+	.containerreputacion {
+		height: 70rem;
+		width: auto;
+		background: linear-gradient(0deg, rgb(46, 252, 255) 0%, rgb(255, 222, 151) 100%);
+		.caracteristicasMJRS {
+			font-size: 30px;
+			color: $color_6;
+			text-align: center;
+		}
+		.grilla {
+			display: grid;
+			grid-template-areas: "innovacion" "transparencia" "eficacia" "objetividad" "practico" "excelencia";
+			grid-template-rows: 13rem 13rem 13rem 13rem 13rem 13rem;
+			grid-template-columns: 1fr;
+		}
+	}
+	.parrafoCarac {
+		font-size: 22px;
+		text-align: center;
+	}
+	.innovacion {
+		grid-area: innovacion;
+		&:hover {
+			color: $color_7;
+			transition: 0.3s;
+			cursor: pointer;
+		}
+	}
+	.transparencia {
+		grid-area: transparencia;
+		&:hover {
+			color: $color_7;
+			transition: 0.3s;
+			cursor: pointer;
+		}
+	}
+	.practico {
+		grid-area: practico;
+		&:hover {
+			color: $color_7;
+			transition: 0.3s;
+			cursor: pointer;
+		}
+	}
+	.eficacia {
+		grid-area: eficacia;
+		&:hover {
+			color: $color_7;
+			transition: 0.3s;
+			cursor: pointer;
+		}
+	}
+	.objetividad {
+		grid-area: objetividad;
+		&:hover {
+			color: $color_7;
+			transition: 0.3s;
+			cursor: pointer;
+		}
+	}
+	.excelencia {
+		grid-area: excelencia;
+		&:hover {
+			color: $color_7;
+			transition: 0.3s;
+			cursor: pointer;
+		}
+	}
+	footer {
+		margin-top: auto;
+	}
+	.flexContainer {
+		display: flex;
+		justify-content: space-between;
+		height: 8rem;
+	}
+/* Contacto */
+	.contactoH1 {
+		color: $color_8;
+		font-style: italic;
+	}
+  h1.contactoH1{margin-top: 1rem;margin-left: 1.5rem;font-family: cursive;font-size: 35px;}
+  legend{
+    font-family: emoji;font-style: italic;font-size: 30px;
+  }
+  label{
+    font-family: math;
+  }
+	.formulario {
+		width: auto;
+		padding: 0%;
+		margin: auto;
+		margin-top: 4rem;
+		border-radius: 7px;
+		color: $color_9;
+		border: dBashed black;
+		display: grid;
+		justify-content: center;
+	}
+	textarea#comentario {
+		width: -webkit-fill-available;
+	}
+	input#nombre {
+		width: inherit;
+	}
+	select#pais {
+		width: inherit;
+	}
+	input#phone {
+		width: inherit;
+		width: inherit;
+	}
+	input#fnac {
+		width: inherit;
+	}
+	input#correo {
+		width: inherit;
+	}
+	input[type="number"] {
+		width: inherit;
+	}
+	.controls {
+		width: 100%;
+		padding: 10px;
+		border-radius: 4px;
+		margin-bottom: 16px;
+		border: 2px solid whitesmoke;
+		font-family: $font-family_2;
+		font-size: 18px;
+	}
+	.dondeC {
+		height: 120px;
+	}
+  /* Servicios */
+.serviciosTitulo{
+  font-style: oblique;
+  font-family: 'Times New Roman', Times, serif;
+}
+.serviciosTitulo {
+    &:hover {
+      color: $color_8;
+      transition: 0.5s;
+      cursor: pointer;
+    }
+  }
+.serviciosGrilla {
+		color: $color_2;
+		font-weight: bold;
+	}
+}
+p.parrafoClase{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.col-md-6.informesEcos{
+  padding: 2rem 3rem 3rem 3rem;
+}
+.informesEcos {
+	grid-area: informes;
+	&:hover {
+		color: $color_11;
+		transition: 0.5s;
+		cursor: pointer;
+	}
+}
+.col-md-6.proyecciones{
+  padding: 1rem 3rem 3rem 3rem;
+}
+.proyecciones {
+	grid-area: proyeccion;
+	&:hover {
+		color: $color_12;
+		transition: 0.5s;
+		cursor: pointer;
+	}
+}
+.col-md-6.IPC{
+  padding: 1rem 3rem 3rem 3rem;
+}
+.IPC {
+	grid-area: indice;
+	&:hover {
+		color: $color_13;
+		transition: 0.5s;
+		cursor: pointer;
+	}
+}
+.col-md-6.internacional{
+  padding: 1rem 3rem 3rem 3rem;
+}
+.internacional {
+	grid-area: inter;
+	&:hover {
+		color: $color_14;
+		transition: 0.5s;
+		cursor: pointer;
+	}
+}
+.col-md-6.gestion{
+  padding: 1rem 3rem 3rem 3rem;
+}
+.gestion {
+	grid-area: gestion;
+	&:hover {
+		color: $color_15;
+		transition: 0.5s;
+		cursor: pointer;
+	}
+}
+.col-md-6.desarrollo{
+  padding: 1rem 3rem 3rem 3rem;
+}
+.desarrollo {
+	grid-area: desarrollo;
+	&:hover {
+		color: $color_16;
+		transition: 0.5s;
+		cursor: pointer;
+	}
+}
+.col-md-6.energia{
+  padding: 1rem 3rem 3rem 3rem;
+}
+.energia {
+	grid-area: energia;
+	&:hover {
+		color: $color_17;
+		transition: 0.5s;
+		cursor: pointer;
+	}
+}
+.col-md-6.demanda{
+  padding: 1rem 3rem 3rem 3rem;
+}
+.demanda {
+	grid-area: demanda;
+	&:hover {
+		color: $color_18;
+		transition: 0.5s;
+		cursor: pointer;
+	}
+}
+.col.sustentable{padding: 1rem 3rem 3rem 3rem;}
+.sustentable {
+	grid-area: sustentable;
+	&:hover {
+		color: $color_19;
+		transition: 0.5s;
+		cursor: pointer;
+	}
+}
+
+/* Historia */
+
+h1.titulohistoria{
+  color: ghostwhite;
+}
+
+/* encontranos */
+h1.ubicacion{color: ghostwhite; padding: 2rem;justify-content: center; text-align: center;}
+p.parrafoencuentro{color: aliceblue; font-size: larger;text-align: center;}
+figcaption.figure-caption{color: blanchedalmond; text-align: center; font-style: italic; font-family: serif;}
+p.parrafoencuentrofinal{text-align: center; margin: 5rem 3rem 3rem 3rem; color: blanchedalmond; font-family: monospace;font-size: 17px;}

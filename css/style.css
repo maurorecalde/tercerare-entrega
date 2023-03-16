@@ -759,6 +759,10 @@ p.parrafoClase {
 h1.titulohistoria {
   color: ghostwhite;
 }
+p.economistas{
+  color: black;
+  font-family: monospace;
+}
 
 /* encontranos */
 h1.ubicacion {
@@ -1163,6 +1167,11 @@ p.parrafoClase {
 h1.titulohistoria {
   color: ghostwhite;
 }
+p.economistas{
+  color: black;
+  font-family: monospace;
+}
+
 
 /* encontranos */
 h1.ubicacion {
